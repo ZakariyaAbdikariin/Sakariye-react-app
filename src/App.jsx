@@ -1,6 +1,7 @@
 import "./App.css";
 import Clicker from "./components/Clicker";
-import  { Tiriye } from "./components/Counter";
+import { Tiriye } from "./components/Counter";
+import Dashboard from "./components/Dashboard";
 import Greeting from "./components/Greeting";
 import Header from "./components/Header";
 import Inputer from "./components/Inputer";
@@ -10,7 +11,8 @@ import WelcomeMessage from "./components/WelcomeMessage";
 function App() {
   return (
     <>
-      <WelcomeMessage isLoggedIn={false}/>
+      <Dashboard isLoggedIn={true} />
+      <WelcomeMessage isLoggedIn={false} />
       <ThemeToggle />
       <Header />
       <Inputer />
@@ -23,4 +25,3 @@ function App() {
 }
 
 export default App;
-   
