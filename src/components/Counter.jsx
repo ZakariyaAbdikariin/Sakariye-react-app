@@ -1,7 +1,9 @@
 import { useState } from "react";
 
-function Counter() {
-  const [count, setCount] = useState(0); // initial value = 0
+export function Tiriye() {
+
+  let [count, setCount] = useState(0); // initial value = 0
+ 
 
   return (
     <div style={{backgroundColor:"yellow"}}>
@@ -12,4 +14,4 @@ function Counter() {
     </div>
   );
 }
- export default Counter;
+ 
